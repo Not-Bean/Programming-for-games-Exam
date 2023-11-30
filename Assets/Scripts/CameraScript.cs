@@ -18,6 +18,7 @@ public class CameraScript : MonoBehaviour
         if (bc.falling == true)
         {
             //Stop moving the camera
+            GameObject.FindGameObjectWithTag("MainCamera");
         }
     }
 }
